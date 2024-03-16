@@ -1,0 +1,36 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background-color:azure;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1.5;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    background: yellow;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 30px;
+    cursor:unset;
+    outline: 0;
+}
