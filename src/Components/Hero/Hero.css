@@ -68,16 +68,17 @@
     position: relative;
     width: 100%;
     height: auto;
-    border: 20px solid rgba(155, 89, 182,0.3);
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
+    background-color: rgba(155, 89, 182,0.3);
   }
   
   .video {
-    width: 100%;
+    width: 90%;
     height: auto;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
+    margin: 20px;
   }
   
   .play-icon {

@@ -41,24 +41,31 @@
 
 .video-container {
     position: relative;
-    cursor: pointer;
-    border-radius: 20px; 
-    overflow: hidden;
-}
-
-.video {
     width: 100%;
-    height: auto; 
-}
-
-.play-icon {
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: rgba(155, 89, 182,0.3);
+  }
+  
+  .video {
+    width: 90%;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  
+  .play-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
     color: white;
-}
+    font-size: 3rem;
+    cursor: pointer;
+    opacity: 0.8;
+  }
 
 .whyus_desc_right {
     flex: 0 0 50%;

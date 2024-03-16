@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
             <div className="hero-right">
                 <div className="video-container" onClick={togglePlay}>
-                    <video className="video" ref={videoRef} width="320" height="180" >
+                    <video className="video" ref={videoRef} width="320" >
                         <source src={videoSource} type="video/mp4" />
                     </video>
                     {!isPlaying && (
