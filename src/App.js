@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './Components/Contact/Contact';
 import Feedback from './Components/Feedback/Feedback';
 import Goals from './Components/Goals/Goals';
 import Hero from './Components/Hero/Hero';
@@ -15,6 +16,7 @@ function App() {
       <Whyus />
       <Goals />
       <Feedback />
+      <Contact />
     </div>
   );
 }
