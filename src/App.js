@@ -1,4 +1,5 @@
 import './App.css';
+import Feedback from './Components/Feedback/Feedback';
 import Goals from './Components/Goals/Goals';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
@@ -13,6 +14,7 @@ function App() {
       <Services/>
       <Whyus />
       <Goals />
+      <Feedback />
     </div>
   );
 }

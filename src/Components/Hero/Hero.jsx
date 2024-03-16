@@ -1,8 +1,7 @@
 import React, { useRef, useState } from 'react';
 import './Hero.css';
 import videoSource from './../../Assets/Mint Green Home SchoolRemote Learning 169 Video.mp4'
-import { FaArrowRight, FaPlay } from "react-icons/fa"; // Import necessary icons
-
+import { FaArrowRight, FaPlay } from "react-icons/fa"; 
 
 const Hero = () => {
 

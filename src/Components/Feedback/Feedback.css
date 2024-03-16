@@ -1,0 +1,93 @@
+/* Feedback Container */
+.feedback_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 0 10%; 
+}
+
+/* Feedback Head */
+.feedback_head {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    align-items: center;
+}
+
+.left_feed {
+    padding-right: 20px;
+}
+
+.left_feed h1 {
+    font-weight: 500;
+}
+
+.left_feed p {
+    font-size: 16px;
+    margin: 15px auto 30px;
+    line-height: 1.4;
+}
+
+.right_feed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right_feed span {
+    margin-right: 5px;
+    color: black;
+}
+
+/* Feedback Section */
+.feedback {
+    width: 100%;
+    background-color: blueviolet;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+.left_feedbback img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    border-radius: 5px 0 0 5px;
+}
+
+/* Right Feedback */
+.right_feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 10%;
+    max-width: 500px;
+}
+
+.right_feedback p {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+.right_feedback h1 {
+    font-weight: 500;
+}
+
+.right_feedback span,
+.right_feedback a {
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.right_feedback a {
+    cursor: pointer;
+    color: blue;
+}
