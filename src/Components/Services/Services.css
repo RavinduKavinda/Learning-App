@@ -5,7 +5,8 @@
     justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 20px;
+    padding-top: 70px;
+    margin-top: 10px;
 }
   
 .services {
@@ -15,8 +16,8 @@
 }
 
 .services h1 {
+    font-size: 40px;
     font-weight: 600;
-    line-height: 1.5;
     margin-top: 20px;
 }
 
@@ -64,12 +65,20 @@
     background-color: beige;
   }
 
-  .services_cards > div h1{
+  .services_cards .left h1,
+  .services_cards .middle h1,
+  .services_cards .right h1{
     font-size: 20px;
+    font-weight: 700;
     margin-top: 10px;
+    color: black;
+    justify-content: center;
+    text-align: center;
   }
 
   .services_cards > div p{
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
+    color: #747d8c;
+    text-align: left;
   }

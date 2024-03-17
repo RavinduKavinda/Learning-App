@@ -25,6 +25,12 @@ nav ul li{
 }
 
 .scroll_nav{
-    background: blue;
+    background: rgba(27, 20, 100,0.9);
     transition: 0.5s;
 }
+
+.container ul li.active a {
+    color: yellow;
+    text-decoration: underline;
+  }
+  

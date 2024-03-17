@@ -6,9 +6,9 @@ import { IoBagCheckSharp, IoPeopleCircle  } from "react-icons/io5";
 
 const Goals = () => {
   return (
-    <div className='goals_container'>
+    <div className='goals_container' id='goals'>
         <div className="goals">
-            <h1>Why Us</h1>
+            <h1>We Completed 1200+ Certification Program Successfully & Counting</h1>
             <p>it is a long established fact that a reader will be distracted by the readable
             content of a page when looking at its layout. The point of using Lorem
             </p>
@@ -19,7 +19,7 @@ const Goals = () => {
             <div className="ratings_cards">
                 <div className="ratings_card">
                     <MdOutlineDone 
-                    style={{ backgroundColor: 'blue',
+                    style={{ backgroundColor: '#3742fa',
                              color: 'white', 
                              borderRadius: '50%', 
                              padding: '10px' }} />

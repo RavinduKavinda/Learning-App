@@ -17,7 +17,9 @@ const Feedback = () => {
                 </p>
             </div>
             <div className="right_feed">
-                <span>Read More </span> <FaArrowRight />
+                <a href="#">
+                    <span>Read More</span> <FaArrowRight />
+                </a>
             </div>
         </div>
 
@@ -30,7 +32,7 @@ const Feedback = () => {
                 <div className="ratings_stars">
                     {/* Render five Stars */}
                     {[...Array(5)].map((_, index) => (
-                        <LiaStarSolid key={index} style={{ fontSize: '30px', marginRight:'10px', color:'lightgreen'}} />
+                        <LiaStarSolid key={index} style={{ fontSize: '30px', marginRight:'10px', color:'#009432'}} />
                     ))}
                 </div>
 

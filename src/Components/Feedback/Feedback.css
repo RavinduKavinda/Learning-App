@@ -25,31 +25,31 @@
     font-size: 16px;
     margin: 15px auto 30px;
     line-height: 1.4;
+    color: #747d8c;
 }
 
 .right_feed {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-color: #dfe4ea;
     padding: 10px;
     border-radius: 10px;
 }
 
 .right_feed span {
     margin-right: 5px;
-    color: black;
+    color: #57606f;
 }
 
 /* Feedback Section */
 .feedback {
     width: 100%;
-    background-color: blueviolet;
+    background-color: #eef2e8;
     height: 400px;
     display: grid;
     grid-template-columns: 30% 70%;
     align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     border-radius: 5px;
 }
 

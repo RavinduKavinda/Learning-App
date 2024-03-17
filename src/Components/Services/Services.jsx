@@ -6,7 +6,7 @@ import services03 from '../../Assets/service03.png'
 
 const Services = () => {
   return (
-    <div className="service_container">
+    <div className="service_container" id='services'>
         {/* service description */}
         <div className="services">
             <h1>We provide various kind of learning modules for you</h1>
@@ -18,7 +18,7 @@ const Services = () => {
         {/* service cards */}
         <div className="services_cards">
             <div className="left">
-                <img src={services01} alt="" />
+              <img src={services01} alt="" />
                 <h1>Web Development</h1>
                 <p>it is a long established fact that a reader will be distracted by the readable
                   content of a page when looking at its layout. The point of using Lorem

@@ -22,7 +22,7 @@ const Whyus = () => {
 
   return (
     <div>
-        <div className="whyus_container">
+        <div className="whyus_container" id='whyus'>
             {/* Why Us description */}
             <div className="whyus_title">
                 <h1>Why Us</h1>

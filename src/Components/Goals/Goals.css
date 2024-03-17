@@ -5,12 +5,28 @@
     justify-content: center;
     padding: 20px;
     margin-bottom: 20px;
+    padding-top: 80px;
   }
   
   .goals {
     text-align: center;
     margin-bottom: 20px;
-    max-width: 500px;
+    max-width: 800px;
+  }
+
+  .goals h1{
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .goals p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    color: #747d8c;
   }
   
   .ratings_cards {
@@ -28,12 +44,12 @@
   }
   
   .ratings_card svg {
-    color: blue; 
+    color: #3742fa; 
     font-size: 2.5em; 
     margin-right: 5px;
   }
   
   .ratings_card span {
     text-align: left;
-    color: blue;
+    color: #3742fa;
   }
