@@ -6,6 +6,7 @@ import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Services from './Components/Services/Services';
 import Whyus from './Components/Whyus/Whyus';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Goals />
       <Feedback />
       <Contact />
+      <Footer />
     </div>
   );
 }
