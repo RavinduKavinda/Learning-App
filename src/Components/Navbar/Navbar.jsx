@@ -30,7 +30,7 @@ const Navbar = () => {
         <li className={activeItem === 1 ? 'active' : ''}><a href="#services" onClick={() => handleItemClick(1)}>Services Us</a></li>
         <li className={activeItem === 2 ? 'active' : ''}><a href="#whyus" onClick={() => handleItemClick(2)}>Why Us</a></li>
         <li className={activeItem === 3 ? 'active' : ''}><a href="#goals" onClick={() => handleItemClick(3)}>Our Goals</a></li>
-        <li><button className='btn'>Contact Us</button></li>
+        <li><button className='btn'> <a href="#contact">Contact Us</a></button></li>
       </ul>
     </nav>
   );
